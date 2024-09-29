@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Portfolio Website </title>
+    <title>Portfolio Website</title>
 </head>
-<body>
-    <body background = "website/pink.jpg">
-    <center> <h1 style="color:purple;"> HOME PAGE </h1> </center>
-    <table border="0" width="100%" lenght="100&">
+
+<body background="website/pink.jpg">
+    <font face="Times New Roman">
+
+    <!-- Navigation Bar -->
+    <nav>
+        <p style="text-align:center;">
+            <a href="#home">HOME</a> | 
+            <a href="#projects">PROJECTS</a> | 
+            <a href="#skills">SKILLS</a> | 
+            <a href="#contacts">CONTACT</a>
+        </p>
+    </nav>
+
+    <!-- HOME PAGE -->
+    <a name="home"></a>
+    <i> <h4>HOME PAGE</h4></i>
+    <table border="0" width="100%" length="100%">
         <tr>
             <td align="center" valign="middle">
                 <table border="0">
@@ -17,42 +31,106 @@
                         <td>
                             <h3>ABOUT ME</h3>
                             <p><b>Name:</b> Chynna Mae B. De Borja</p>
-                            <p><b>Birthday:</b> December 12, 2002 </p>
-                            <p><b>School:</b> Technological University of the Philipines </p>
+                            <p><b>Birthday:</b> December 12, 2002</p>
+                            <p><b>School:</b> Technological University of the Philippines</p>
                             <p><b>Hometown:</b> Laguna</p>
-                            <p><b>Background in Programming:</b> Beginner skill in html, java, c, and c++ </p>
+                            <p><b>Background in Programming:</b> Beginner skill in HTML, Java, C, and C++</p>
                         </td>
                     </tr>
-    
+                </table>
+            </td>
+        </tr>
     </table>
     <hr>
-    <center> <h1 style="color:purple;"> PROJECT PAGE </h1> </center>
-    
+
+    <!-- PROJECTS PAGE -->
+    <a name="projects"></a>
+    <i><h4>PROJECTS PAGE</h4></i>
     <ul align="left">
-        <li> <b>Bank Simulation</b> </li>
+        <li><b>ATM Simulation</b></li>
         <ul>
-            <li> A Bank Simulation Project that serves as a final project for Data STructures and Algorithms Class</li>
-            <li> C++ through CodeBlocks was used in this project</li>
-            <li> link ng repository </li>
+            <li>A Bank Simulation Project that serves as a final project for Data Structures and Algorithms class.</li>
+            <li>C++ through CodeBlocks was used in this project.</li>
+            <li><a href="https://github.com/chynnadeborja/DeBorja_BankSimulation.git">GitHub Repository: ATM Simulation</a></li>
         </ul>
-        <li> <b>Flappy Bird </b></li>
+        <li><b>Flappy Bird</b></li>
         <ul>
-            <li>A group project submitted as a final project for Computer Programming 1</li>
-            <li>A Game that is created using C language through CodeBlocks</li>
+            <li>A group project submitted as a final project for Computer Programming 1.</li>
+            <li>A game created using C language through CodeBlocks.</li>
+            <li><a href="https://github.com/chynnadeborja/DeBorja_FlappyBird.git">GitHub Repository: Flappy Bird Game</a></li>
         </ul>
-        <li> <b>Student Login </b> </li>
+        <li><b>Student Login</b></li>
         <ul>
-            <li>Java was used for this project</li>
-            <li> FInal Project for Object Oriented Programming</li>
+            <li>Java was used for this project.</li>
+            <li>Final Project for Object-Oriented Programming.</li>
+            <li><a href="https://github.com/chynnadeborja/DeBorja_StudentLogin.git">GitHub Repository: Student Login</a></li>
         </ul>
     </ul>
+    <hr>
+
+    <!-- SKILLS PAGE -->
+    <a name="skills"></a>
+    <i><h4>SKILLS PAGE</h4></i>
+    <ul align="left">
+        <li><b>Beginner</b></li>
+        <ul>
+            <li>HTML</li>
+            <li>C</li>
+        </ul>
+        <li><b>Intermediate</b></li>
+        <ul>
+            <li>Java</li>
+            <li>C++</li>
+        </ul>
+        <li><b>Advanced</b></li>
+        <ul>
+            <li>Problem-Solving Skills</li>
+        </ul>
+    </ul>
+    <hr>
+
+    <!-- CONTACT PAGE -->
+    <a name="contacts"></a>
+    <i><h4>CONTACT PAGE</h4></i>
+
+    <!-- Contact Form Inside a Box (Table) -->
+    <table border="1" cellpadding="10" cellspacing="0" align="center" style="border-collapse:collapse;">
+        <tr>
+            <td>
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="name" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message:</label></td>
+                            <td><textarea id="message" name="message" rows="4" cols="50"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <center>
+        <p>&copy; 2024 Chynna Mae B. De Borja</p>
+        <p>
+            <a href="https://github.com/chynnadeborja">GitHub</a> |
+            <a href="mailto:chynnadeborja@gmail.com">Gmail</a>
+        </p>
     </center>
-    <hr>
-    <center> <h1 style="color:purple;"> SKILLS PAGE </h1> </center>
-    <hr>
-    <center> <h1 style="color:purple;"> CONTACT PAGE </h1> </center>
+    </footer>
+</font>
 </body>
-
-
-
 </html>
