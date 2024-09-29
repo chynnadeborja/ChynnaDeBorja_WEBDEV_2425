@@ -12,14 +12,25 @@ Third, navigate to the folder where you cloned the repository using the File Exp
 Lastly, ensure that the file you want to serve as the main HTML file is open in VSCode (e.g., index.html). Right-click on the file and select "Open with Live Server". A web browser will open and display the website. Any changes you make to the files will be automatically reflected in the browser.
 
 **HTML elemenents and tags utilized:**
-1. <!DOCTYPE html>  Tells the browser to use HTML5.
-2. <html lang="en"> Marks the start of the HTML document and specifies the language as English.
-3. <head> Holds important info about the page (like its title).
-4. <title> Sets the name of the tab in the browser.
-5. <body> Contains everything users see on the webpage.
-6. <a name="contacts"></a>  Creates a spot in the page you can jump to from other links.
-7. <i> and <h4> Italicizes text and makes a small heading for the contact page title.
-8. <table> Organizes information in rows and columns.
-9. <tr>Stands for table row, used to group cells.
-10. <td> Defines each cell in a table row.
-11. <form> Creates a space for users to input their info, like their name and message.
+
+1. `<html>`: Marks the beginning and end of the HTML document.
+
+2. `<head>`: Contains metadata about the HTML document, such as the title.
+
+3. `<title>`: Sets the title of the webpage, which appears in the browser tab.
+
+4. `<body>`: Contains the visible content of the webpage, including text, images, and other elements.
+
+5. `<a name="contacts"></a>`: Creates an anchor point within the document, allowing users to jump to specific sections using hyperlinks.
+
+6. `<i>`: Applies italic formatting to the enclosed text.
+
+7. `<h4>`: Defines a heading level 4.
+
+8. `<table>`: Creates a table structure for organizing data into rows and columns.
+
+9. `<tr>`: Defines a table row.
+
+10. `<td>`: Defines a table data cell, which can contain text, images, or other content.
+
+11. `<form>`:Creates a form for collecting user input, typically containing elements like input fields, text areas, and submit buttons.
